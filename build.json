@@ -1,0 +1,8 @@
+{
+  "appId": "com.savandbros.expensephere",
+  "productName": "Expensephere",
+  "icon": "src/asset/icon.png",
+  "mac": {
+    "category": "public.app-category.finance"
+  }
+}
