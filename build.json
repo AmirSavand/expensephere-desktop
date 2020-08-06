@@ -4,5 +4,8 @@
   "icon": "src/asset/icon.png",
   "mac": {
     "category": "public.app-category.finance"
+  },
+  "linux": {
+    "category": "Utility"
   }
 }
