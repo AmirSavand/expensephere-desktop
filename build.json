@@ -7,5 +7,6 @@
   },
   "linux": {
     "category": "Utility"
-  }
+  },
+  "publish": "always"
 }
