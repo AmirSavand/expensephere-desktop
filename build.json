@@ -1,0 +1,22 @@
+{
+  "appId": "com.savandbros.expensephere",
+  "productName": "Expensephere",
+  "icon": "src/asset/icon.png",
+  "publish": null,
+  "mac": {
+    "category": "public.app-category.finance"
+  },
+  "linux": {
+    "category": "Utility",
+    "target": [
+      "AppImage",
+      "deb"
+    ]
+  },
+  "win": {
+    "target": "NSIS"
+  },
+  "nsis": {
+    "artifactName": "${productName}-setup-${version}.${ext}"
+  }
+}

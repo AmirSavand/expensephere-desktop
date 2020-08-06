@@ -1,0 +1,25 @@
+{
+  "name": "expensephere",
+  "version": "0.1.0",
+  "author": {
+    "name": "SavandBros",
+    "email": "hello@savandbros.com",
+    "url": "https://www.savandbros.com"
+  },
+  "description": "Be in control of your expenses in a beautiful and simple atmosphere.",
+  "homepage": "https://expensephere.savandbros.com",
+  "license": "GPL-3.0",
+  "copyright": "Copyright © 2020 SavandBros",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --config=build.json",
+    "build-windows": "electron-builder --config=build.json --win",
+    "build-linux": "electron-builder --config=build.json --linux",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "devDependencies": {
+    "electron": "^9.1.2",
+    "electron-builder": "^22.8.0"
+  }
+}
